@@ -1,0 +1,38 @@
+[
+  {
+    "id": "desenvolvimento-web",
+    "title": "Desenvolvimento Web",
+    "description": "Aplicações web modernas com React, Next.js e Node.js. APIs RESTful e GraphQL.",
+    "icon": "Globe"
+  },
+  {
+    "id": "aplicacoes-moveis",
+    "title": "Aplicações Móveis",
+    "description": "Apps nativos e cross-platform com React Native. iOS e Android de uma única codebase.",
+    "icon": "Smartphone"
+  },
+  {
+    "id": "consultoria",
+    "title": "Consultoria Técnica",
+    "description": "Arquitetura de sistemas, code review, e planejamento técnico para projetos escaláveis.",
+    "icon": "Lightbulb"
+  },
+  {
+    "id": "devops",
+    "title": "DevOps & Cloud",
+    "description": "CI/CD, containers, e infraestrutura como código. AWS, GCP e Azure.",
+    "icon": "Cloud"
+  },
+  {
+    "id": "integracao",
+    "title": "Integração de Sistemas",
+    "description": "APIs, webhooks, e conectores para integrar sistemas legados e modernos.",
+    "icon": "Link"
+  },
+  {
+    "id": "ux-design",
+    "title": "UX Design",
+    "description": "Design de interfaces centrado no usuário. Wireframes, protótipos e design system.",
+    "icon": "Palette"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "portal-colaboradores",
+    "title": "Portal de Colaboradores",
+    "description": "Sistema interno para gestão de ponto e benefícios de colaboradores. Integração comtotvs.",
+    "image": "/images/portfolio/placeholder-1.svg",
+    "tags": ["React", "Node.js", "PostgreSQL", "Keycloak"],
+    "link": null
+  },
+  {
+    "id": "app-saude",
+    "title": "App de Saúde",
+    "description": "Aplicativo mobile para acompanhamento de saúde dos associados CASSI.",
+    "image": "/images/portfolio/placeholder-2.svg",
+    "tags": ["React Native", "TypeScript", "GraphQL"],
+    "link": null
+  },
+  {
+    "id": "dashboard-analytics",
+    "title": "Dashboard Analytics",
+    "description": "Painel de indicadores para diretoria com dados em tempo real.",
+    "image": "/images/portfolio/placeholder-3.svg",
+    "tags": ["Next.js", "D3.js", "Presto"],
+    "link": null
+  },
+  {
+    "id": "api-gateway",
+    "title": "API Gateway Corporativo",
+    "description": "Gateway centralizado para todas as APIs internas com rate limiting e autenticação.",
+    "image": "/images/portfolio/placeholder-4.svg",
+    "tags": ["Node.js", "Redis", "Docker", "Kubernetes"],
+    "link": null
+  },
+  {
+    "id": "chatbot-atendimento",
+    "title": "Chatbot de Atendimento",
+    "description": "Bot de IA para primeiro atendimento ao cliente com integração ao WhatsApp.",
+    "image": "/images/portfolio/placeholder-5.svg",
+    "tags": ["Python", "LangChain", "WhatsApp", "GPT-4"],
+    "link": null
+  },
+  {
+    "id": "plataforma-ead",
+    "title": "Plataforma EAD",
+    "description": "Sistema de ensino à distância com videoaulas, quizzes e certificação.",
+    "image": "/images/portfolio/placeholder-6.svg",
+    "tags": ["React", "Moodle", "AWS MediaConvert"],
+    "link": null
+  }
+]
