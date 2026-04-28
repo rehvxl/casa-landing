@@ -33,12 +33,16 @@ export default function ServiceCard({ service }: ServiceCardProps) {
   const IconComponent = iconMap[service.icon] || Box
 
   return (
-    <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-primary-300 hover:shadow-lg transition-all">
-      <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
-        <IconComponent size={24} className="text-primary-600" />
+    <div className="bg-white rounded-lg p-6 shadow-sm border border-neutral-200 hover:shadow-lg transition-all duration-normal ease-out">
+      <div className="w-12 h-12 bg-accent-50 rounded-lg flex items-center justify-center mb-4">
+        <IconComponent size={24} className="text-accent" />
       </div>
-      <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.title}</h3>
-      <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
+      <h3 className="text-xl font-semibold text-neutral-800 mb-2">
+        {service.title}
+      </h3>
+      <p className="text-neutral-600 text-base leading-relaxed">
+        {service.description}
+      </p>
     </div>
   )
 }

@@ -40,10 +40,18 @@ Build corrigido (NODE_ENV=production no build script). Todas as páginas e compo
 - data/services.json
 - data/portfolio.json
 
-## CASA-9-7: Testes E2E
-**Status:** Pendente
-- Playwright configurado mas tests não implementados
+## CASA-9-7: Testes E2E ✅
+**Status:** Completo
+- Playwright configurado (playwright.config.ts)
+- e2e/home.spec.ts - testes home page
+- e2e/navigation.spec.ts - testes navegação
+- e2e/contact.spec.ts - testes formulário contato
+- e2e/services.spec.ts - testes página serviços
+- e2e/portfolio.spec.ts - testes página portfolio
+- Scripts: npm run test:e2e, npm run test:e2e:ui
 
 ## CASA-9-8: Deploy
-**Status:** Pendente
-- Requer Vercel account e GitHub repo
+**Status:** Pendente (aguardo credenciais Vercel)
+- GitHub repo: https://github.com/rehvxl/casa-landing ✅
+- Vercel: requer VERCEL_TOKEN ou ação manual
+- Deploy manual: vercel.com → Import repo → configurar env vars
