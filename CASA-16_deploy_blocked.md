@@ -1,8 +1,22 @@
 # CASA-16 — Deploy Vercel + Smoke Tests
 
-**Status:** GitHub PRONTO — Aguardando Vercel
-**Data:** 2026-04-27
-**Última verificação:** 2026-04-27T22:52 UTC
+**Status:** SITE NO AR — Mas conteúdo ERRADO
+**Data:** 2026-04-28
+**Última verificação:** 2026-04-28T02:30 UTC
+
+## Problema Atual
+
+Site `https://casa-landing.vercel.app` está no ar MAS mostra scaffold antigo ("CASA is coming, to your doorstep") — NÃO a landing CASA Software House.
+
+Causa provável: Projeto Vercel foi criado a partir de repo scaffold (conteúdo antigo), não do nosso repo com implementação completa.
+
+## Solução Necessária
+
+1. Verificar se Vercel está conectado ao repo correto (`https://github.com/rehvxl/casa-landing`)
+2. Se conectado:_trigger novo deploy
+3. Se não conectado: conectar ao nosso repo
+4. Aguardar deploy completar
+5. Verificar que conteúdo显示 "CASA Software House"
 
 ## Progresso Concreto
 
@@ -41,10 +55,10 @@
 | Item | Status | Responsavel |
 |------|--------|-------------|
 | Remote git | ✅ PRONTO | — |
-| Conexao Vercel → GitHub | Pendente | Dev Front End |
-| Env vars (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, CONTACT_EMAIL) | Pendente | Engenheiro SW |
-| Deploy produção | Pendente | Após arriba |
-| Smoke tests em production | Pendente | Após deploy |
+| Site Vercel | ⚠️ NO AR mas ERRADO (conteúdo scaffold) | Dev Front End |
+| Trigger redeploy / conectar repo | Pendente | Dev Front End |
+| Env vars (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, CONTACT_EMAIL) | Pendente | Engenheiro SW (eu) |
+| Smoke tests em production | Pendente | Após deploy correto |
 
 ## Proximos Passos (Vercel)
 
