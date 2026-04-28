@@ -51,7 +51,20 @@ Build corrigido (NODE_ENV=production no build script). Todas as páginas e compo
 - Scripts: npm run test:e2e, npm run test:e2e:ui
 
 ## CASA-9-8: Deploy
-**Status:** Pendente (aguardo credenciais Vercel)
+**Status:** Aguardando ação manual
 - GitHub repo: https://github.com/rehvxl/casa-landing ✅
-- Vercel: requer VERCEL_TOKEN ou ação manual
-- Deploy manual: vercel.com → Import repo → configurar env vars
+- Push OK: commit e141031 (implementação completa)
+- ESLint: configurado e passando
+- Tests: 7/7 passando
+- Build: passando
+
+**Deploy manual necessário:**
+1. Acessar vercel.com → Importar repo `rehvxl/casa-landing`
+2. Configurar environment variables (ver `.env.example`)
+3. Fazer deploy
+
+**Deploy CLI** (requer token):
+```bash
+cd casa-landing
+vercel --prod
+```
